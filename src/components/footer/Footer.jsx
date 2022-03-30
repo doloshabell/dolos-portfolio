@@ -1,7 +1,7 @@
 import React from 'react';
 import './footer.css';
 import { SiFacebook } from 'react-icons/si';
-import { SiInstagram } from 'react-icons/si';
+import { SiSpotify } from 'react-icons/si';
 import { RiHeartFill } from 'react-icons/ri'
 
 const Footer = () => {
@@ -13,15 +13,13 @@ const Footer = () => {
         <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
-        <li><a href="#services">Service</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
 
       <div className="footer__socials">
-        <a href="https://facebook.com"><SiFacebook /></a>
-        <a href="https://instagram.com"><SiInstagram /></a>
+        <a href="https://www.facebook.com/habelldolosha.purba/" target="_blank"><SiFacebook /></a>
+        <a href="https://open.spotify.com/show/20p20xeMamZ9wrMl1XNDyL" target="_blank"><SiSpotify /></a>
       </div>
 
       <div className="footer__copyright">

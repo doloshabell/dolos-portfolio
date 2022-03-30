@@ -1,50 +1,23 @@
 import React from 'react'
 import './portfolio.css'
-import PORTFOLIO from '../../assets/portfolio.jpg'
+import PORTFOLIO1 from '../../assets/portfolio_catluv.jpg'
+import PORTFOLIO2 from '../../assets/portfolio_jiaenergy.jpg'
 
 const data = [
   {
     id: 1,
-    image: PORTFOLIO,
-    title: "MY Portfolio",
-    github: "https://github.com/doloshabell",
-    demo: "https://github.com/doloshabell"
+    image: PORTFOLIO1,
+    title: "Catluv",
+    github: "https://github.com/doloshabell/front-end-project-group2",
+    demo: "https://catluv.netlify.app/"
   },
   {
     id: 2,
-    image: PORTFOLIO,
-    title: "MY Portfolio",
-    github: "https://github.com/doloshabell",
-    demo: "https://github.com/doloshabell"
-  },
-  {
-    id: 3,
-    image: PORTFOLIO,
-    title: "MY Portfolio",
-    github: "https://github.com/doloshabell",
-    demo: "https://github.com/doloshabell"
-  },
-  {
-    id: 4,
-    image: PORTFOLIO,
-    title: "MY Portfolio",
-    github: "https://github.com/doloshabell",
-    demo: "https://github.com/doloshabell"
-  },
-  {
-    id: 5,
-    image: PORTFOLIO,
-    title: "MY Portfolio",
-    github: "https://github.com/doloshabell",
-    demo: "https://github.com/doloshabell"
-  },
-  {
-    id: 6,
-    image: PORTFOLIO,
-    title: "MY Portfolio",
-    github: "https://github.com/doloshabell",
-    demo: "https://github.com/doloshabell"
-  },
+    image: PORTFOLIO2,
+    title: "CV. Jia Multi Energy",
+    github: "#",
+    demo: "https://jiaenergy.com/"
+  }
 ]
 
 const Portfolio = () => {
@@ -61,7 +34,7 @@ const Portfolio = () => {
                 <div className="portfolio__item-image">
                   <img src={image} alt={title} />
                 </div>
-                <h3>This is a portfolio item</h3>
+                <h3>{title}</h3>
                 <div className="portfolio__item-cta">
                   <a href={github} className="btn" target="_blank">Github</a>
                   <a href={demo} className="btn btn-primary" target="_blank">Live Demo</a>

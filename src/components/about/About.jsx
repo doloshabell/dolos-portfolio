@@ -34,13 +34,16 @@ const About = () => {
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>1 Project</small>
+              <h5>Works</h5>
+              <small>2 Projects</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam autem veritatis provident, amet sint. Placeat rem, ratione eum esse, repudiandae provident nisi nam praesentium facere veniam molestiae, quibusdam fugiat?
+            Hi, call me Dolos. Web Development enthusiast with Javascript, ReactJS, React Router, and Redux.
+            I am passionate about IT Development. I am a detail-oriented, love to learn and a fast learner about
+            new thing in Information and Technology, strong analytical, and good logical thinking. I am
+            currently open for new opportunity.
           </p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>

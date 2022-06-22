@@ -1,13 +1,14 @@
 .container.testimonials__container {
     width: 40%;
     padding-bottom: 2.5rem;
+    height: 30.8rem;
 }
 
 .client__avatar {
-    width: 4rem;
-    aspect-ratio: 1/1;
+    width: 20rem;
+    height: 14.4rem;
+    border-radius: 0.7rem;
     overflow: hidden;
-    border-radius: 50%;
     margin: 0 auto 1rem;
     border: 0.4rem solid var(--color-primary-variant);
 }
@@ -25,7 +26,7 @@
     font-weight: 300;
     display: block;
     width: 80%;
-    margin: 0.8rem auto 0;
+    margin: 0.8rem auto;
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
@@ -47,5 +48,10 @@
 
     .client__review {
         width: var(--container-width-sm);
+    }
+
+    .client__avatar {
+        width: var(--container-width-sm);
+        height: 11.7rem;
     }
 }
